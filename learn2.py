@@ -14,7 +14,7 @@
 # 2.字符串
 
 # 2.1索引值
-greet ="hello"
+# greet ="hello"
 # print(greet[1])
 # x=5
 # print(greet[x-2])
@@ -54,8 +54,43 @@ from random import *
 # 随机生成一个整数
 # print(randint(1,10))
 # 在列表中随机选择一个数
-ra=[0,1,2,3,4,5,6,7,8,9]
+# ra=[0,1,2,3,4,5,6,7,8,9]
 # print(choice(ra))
 # 随机选取x个元素
-print(sample(ra,4))
+# print(sample(ra,4))
 
+
+#字典
+# dict = {}
+# dict['one'] = "This is one"
+# dict[2] = "This is two"
+ 
+# tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+ 
+ 
+# print(dict['one'])          # 输出键为'one' 的值
+# print(dict[2] )             # 输出键为 2 的值
+# print(tinydict )            # 输出完整的字典
+# print(tinydict.keys())      # 输出所有键
+# print(tinydict.values())    # 输出所有值
+
+
+#集合set 集合（set）是一个无序不重复元素的序列。
+# student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
+ 
+# print(student)
+
+# if('Rose' in student) :
+#     print('Rose 在集合中')
+# else :
+#     print('Rose 不在集合中')
+
+a = set('abracadabra')
+b = set('alacazam')
+print(a - b)     # a和b的差集
+ 
+print(a | b)     # a和b的并集
+ 
+print(a & b)     # a和b的交集
+ 
+print(a ^ b)     # a和b中不同时存在的元素
